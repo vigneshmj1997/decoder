@@ -1,2 +1,0 @@
-/home/vignesh/demo/decoder/build/CMakeFiles/rebuild_cache.dir
-/home/vignesh/demo/decoder/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,7 @@
+README.md
+setup.py
+wav2letter.egg-info/PKG-INFO
+wav2letter.egg-info/SOURCES.txt
+wav2letter.egg-info/dependency_links.txt
+wav2letter.egg-info/not-zip-safe
+wav2letter.egg-info/top_level.txt

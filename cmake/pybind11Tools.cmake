@@ -99,9 +99,9 @@ function(_pybind11_add_lto_flags target_name prefer_thin_lto)
     endif()
   endif()
 
-  # Enable LTO flags if found, exc  m mept for Debug builds
+  # Enable LTO flags if found, except for Debug builds
   if (PYBIND11_LTO_CXX_FLAGS)
-p    target_compile_options(${target_name} PRIVATE "$<$<NOT:$<CONFIG:Debug>>:${PYBIND11_LTO_CXX_FLAGS}>")
+    target_compile_options(${target_name} PRIVATE "$<$<NOT:$<CONFIG:Debug>>:${PYBIND11_LTO_CXX_FLAGS}>")
   endif()
   if (PYBIND11_LTO_LINKER_FLAGS)
     target_link_libraries(${target_name} PRIVATE "$<$<NOT:$<CONFIG:Debug>>:${PYBIND11_LTO_LINKER_FLAGS}>")
